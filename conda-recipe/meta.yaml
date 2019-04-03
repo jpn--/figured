@@ -1,0 +1,23 @@
+package:
+  name: figured
+  version: "19.3"
+
+source:
+ git_rev: v19.3
+ git_url: https://github.com/jpn--/figured.git
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python >=3.7
+    - plotly >=3.7
+  test:
+    - pytest
+
+about:
+  home: https://github.com/jpn--/figured
+  license: GPLv3
+  license_file: LICENSE
+  
